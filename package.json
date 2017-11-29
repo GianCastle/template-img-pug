@@ -1,0 +1,22 @@
+{
+  "name": "template-img-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phantomjs",
+    "pug",
+    "screenshot"
+  ],
+  "author": "Giancarlos Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "phantom": "^4.0.9",
+    "promise": "^8.0.1",
+    "pug": "^2.0.0-rc.4",
+  }
+}
