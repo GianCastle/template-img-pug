@@ -16,7 +16,6 @@ function templateToImage(imageType, width, height, address, options) {
             page = _page;
             page.property("viewportSize", { width: width, height: height });
             page.property("content", html);
-            console.log(html)
 
             return page.property("onLoadFinished");
         }).then(function () {
