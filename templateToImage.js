@@ -34,4 +34,4 @@ function templateToImage(imageType, width, height, address, options) {
     });
 }
 
-module.exports = _.curry(pugToImage);
+module.exports = _.curry(templateToImage);
